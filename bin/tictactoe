@@ -1,3 +1,16 @@
 #!/usr/bin/env ruby
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
+
+=begin
+#this is all the crap from Ruby TTT
+puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
+
+# Make sure to execute #play below
+play(board)
+=end
+
+game = TicTacToe.new
+game.play
